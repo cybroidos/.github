@@ -1,0 +1,35 @@
+name: Something isn't working
+description: A bug in CybroidOS
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: CybroidOS version and edition
+      description: Settings → About, or `cat /etc/os-release`
+      placeholder: "0.1.16, Security edition"
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Computer
+      placeholder: "Dell Latitude 7290, 8 GB"
+  - type: dropdown
+    id: look
+    attributes:
+      label: Interface
+      options: [Horizon, Hex, Both, "Not relevant"]
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, if you have them
+      description: "`journalctl -b -p warning` helps for problems at start-up."
+      render: text

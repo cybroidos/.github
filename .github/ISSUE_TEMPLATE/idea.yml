@@ -1,0 +1,14 @@
+name: An idea
+description: Something CybroidOS should do or do better
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help, and for whom
+    validations:
+      required: true
+  - type: textarea
+    id: now
+    attributes:
+      label: How you manage today

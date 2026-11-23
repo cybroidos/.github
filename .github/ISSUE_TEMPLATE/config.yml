@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: A security problem
+    url: https://github.com/cybroidos/os/security/advisories/new
+    about: Report it privately, never in a public issue.
+  - name: A question
+    url: https://github.com/cybroidos/os/discussions
+    about: Ask in Discussions.
+  - name: CybroidOS for your organisation
+    url: https://cybroid.com/cybroidos
+    about: Installation, management and support from Cybroid.
